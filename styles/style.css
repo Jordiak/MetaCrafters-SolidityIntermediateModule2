@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Page Elements */
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/leaves.jpg');
+    background-size: cover;
+}
+
+header {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    border: hidden;
+    border-radius: 5px;
+    background-color: #affb8f;
+    color: #126500;
+}
+
+.button:hover {
+    background-color: #25a908;
+    color: white;
+}
+
+.button-connect {
+    width: 10%;
+    padding: 10px;
+}
+
+.button-show-transactions {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button-transactions {
+    background-color: #126500;
+    color: white;
+    width: 15%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blurred {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contain-transactions {
+    color: white;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.input-fields {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+    height: 25px;
+}
