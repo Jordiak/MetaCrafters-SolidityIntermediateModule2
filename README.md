@@ -1,12 +1,27 @@
-# Starter Next/Hardhat Project
+# Smart Contract Management in Solidity
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Solidity assessment that attempts to provide a front-end user interface for a solidity contract.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+This program was created for the purposes of accomplishing the "ETH + AVAX PROOF: Intermediate EVM Course" Module: Smart Contract Management project on Metacrafters. This program provides a web app user interface with the use of React to perform balance, deposit, and withdraw smart contract functions.
+
+## Getting Started
+
+### Executing program
+
+To run this program, you can use Hardhat to utilize javascript code in combination with solidity.
+
+Hardhat can be started in a terminal using the "npx hardhat node" command.
+
+The smart contract can be deployed using the "npx hardhat run --network localhost scripts/deploy.js" command.
+
+The react web app can be launched using the "npm run dev" command.
+
+## Authors
+
+Jordan
+
+## License
+
+This project is licensed under the MIT License
